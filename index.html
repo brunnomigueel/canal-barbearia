@@ -3,17 +3,17 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Canal da Barbearia - NASA</title>
+  <title>Canal da Barbearia - YouTube Ao Vivo</title>
   <style>
     body { margin: 0; background: black; overflow: hidden; }
-    video { width: 100vw; height: 100vh; object-fit: cover; }
-    .logo { position: absolute; top: 20px; left: 20px; width: 100px; }
-    .banner { position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: white; font-size: 22px; text-align: center; padding: 10px; }
+    iframe { width: 100vw; height: 100vh; border: none; }
+    .logo { position: absolute; top: 20px; left: 20px; width: 100px; z-index: 999; }
+    .banner { position: absolute; bottom: 0; width: 100%; background: rgba(0,0,0,0.7); color: white; font-size: 22px; text-align: center; padding: 10px; z-index: 999; }
   </style>
 </head>
 <body>
-  <video src="https://nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8" autoplay muted controls></video>
+  <iframe src="https://www.youtube.com/embed/zBrHB3uRUjU?autoplay=1&mute=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <img src="https://link-do-seu-logo.com/logo.png" class="logo" />
-  <div class="banner">Transmissão ao vivo da NASA — conteúdo educacional!</div>
+  <div class="banner">Conteúdo musical ao vivo via YouTube. Curta enquanto espera!</div>
 </body>
 </html>
